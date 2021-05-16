@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6CBCC"
+    tools:context=".ilacUyari">
+
+    <TextView
+        android:id="@+id/txtUyari"
+        android:layout_width="409dp"
+        android:layout_height="68dp"
+        android:text="İlaçların Yan Etkileri:"
+        android:textColor="#B03A2E"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/txtMetin1"
+        android:layout_width="388dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="15dp"
+        android:text="İZONİYAZİD:  Hepatit, periferik nöropati, ruhsal durum bozukluğu, SLE
+sendromu, cilt döküntüler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtUyari" />
+
+    <TextView
+        android:id="@+id/txtMetin2"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="RİFAMPİSİN:  İdrar, gaita, balgam, ter, gözyaşı turuncu olur;
+gastrointestinal rahatsızlık; hepatit; aşırı duyarlılık
+reaksiyonları.
+Trombositopeni, grip sendromu, böbrek hasarı."
+        android:layout_below="@+id/txtMetin1" />
+
+    <TextView
+        android:id="@+id/txtMetin3"
+        android:layout_width="385dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtMetin2"
+
+        android:text="MORFOZİNAMİD ve PİRAZİNAMİD:  Hepatit, hiperürisemi,artralji,döküntü,gastrointestinal
+rahatsızlık."
+
+        />
+
+    <TextView
+        android:id="@+id/txtMetin4"
+        android:layout_width="385dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtMetin3"
+        android:layout_height="50dp"
+        android:text="ETAMBUTOL:  Optik nörit (görme keskinliği ve renkli görme testi gerekir),
+hiperürisemi, gastrointestinal rahatsızlık"
+
+        />
+
+    <TextView
+        android:id="@+id/txtMetin5"
+        android:layout_width="385dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtMetin4"
+        android:text="STREPTOMİSİN:  Vestibüler, işitme ile ilgili bozukluklar, elektrolit ve tuz
+dengesizliği, nefrotoksisite, ateş ve döküntü, aşırı duyarlılık" />
+
+
+
+
+
+
+</RelativeLayout>

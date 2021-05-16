@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#B6CBCC"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="TÜBERKÜLOZ"
+        android:textSize="50dp"
+
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnIlaclar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İlaç Durumlarını Göster"
+
+        android:textColor="@color/black"
+        app:backgroundTint="#CB8F9D"
+        app:iconTint="#FFFFFF"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnKontrol"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="İLAÇ DOZ BİLGİLENDİRME"
+        android:textColor="@color/black"
+
+        app:backgroundTint="#CB8F9D" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/btnUyari"
+        android:text="İLAÇLAR HAKKINDA UYARI!"
+        app:backgroundTint="#CB8F9D"/>
+    <Button
+        android:layout_width="237dp"
+        android:id="@+id/btnResimler"
+        android:layout_height="wrap_content"
+        android:text="İlaçları Hatırlayalım"
+        app:backgroundTint="#CB8F9D"
+        android:textColor="@color/black"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imgVerem"
+        android:layout_width="300dp"
+
+
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/verem" />
+
+
+</LinearLayout>
